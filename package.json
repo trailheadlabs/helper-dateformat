@@ -1,0 +1,48 @@
+{
+  "name": "helper-dateformat",
+  "description": "Template helper for adding formatted dates using node-dateformat. Works with Handlebars, Lo-Dash, underscore, or any template engine that supports helper functions. Also compatible with verb, assemble and Template.",
+  "version": "0.2.1",
+  "homepage": "https://github.com/nationalparkservice/helper-dateformat",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nationalparkservice/helper-dateformat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nationalparkservice/helper-dateformat/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nationalparkservice/helper-dateformat/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "dateformat": "^1.0.8"
+  },
+  "devDependencies": {
+    "handlebars": "^2.0.0",
+    "lodash": "^2.4.1",
+    "should": "^4.2.1"
+  },
+  "keywords": [
+    "assemble",
+    "handlebars",
+    "helper",
+    "lo-dash",
+    "lodash",
+    "template",
+    "underscore",
+    "verb"
+  ]
+}
